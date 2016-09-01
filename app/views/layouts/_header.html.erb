@@ -20,7 +20,7 @@
         <li><%= link_to "Account Settings", edit_user_registration_path %></li>
         <li><%= link_to "Logout", destroy_user_session_path, method: :delete %></li>
       <% else %>
-        <%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg" %>
+        <li><%= link_to "Log in", new_user_session_path %></li>
       <% end %>
       </ul>
     </div><!-- /.navbar-collapse -->
